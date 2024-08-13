@@ -2,6 +2,10 @@
 
 Simple replacing of nis in favor of rfc2307bis:
 
+![ADS1](https://raw.githubusercontent.com/krei-se/OLC-rfc2307bis/main/ads1.png)
+![ADS2](https://raw.githubusercontent.com/krei-se/OLC-rfc2307bis/main/ads2.png)
+
+
 Debian has cn=config by default.
 
 ### SCHEMA FOR RFC2307bis:
