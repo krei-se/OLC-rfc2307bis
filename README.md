@@ -51,8 +51,9 @@ ldapmodify -Y EXTERNAL -H ldapi:/// -f delete_nis_attributes_and_objects.ldif
 ldapadd -Y EXTERNAL -H ldapi:/// -f rfc2307bis.ldif
 ```
 
+This will work on a running server without breaking connections / clients.
 
-if you don't want the empty cn={2}nis.ldif and rfc2307bis on {4} but {2}rfc2307bis.ldif:
+Now if you don't want the empty cn={2}nis.ldif and rfc2307bis on {4} but {2}rfc2307bis.ldif:
 
 - remove the old nis-schema now by STOPPING THE SERVER and deleting the file in slapd.d:
 
