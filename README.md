@@ -65,3 +65,7 @@ systemctl start slapd
 ```
 
 That's it, enjoy your clean schemas!
+
+I know there are lots of warnings and backups online, but if you replace all attributes and objects nothing will break - the schema is flattened anyway and the index-numbering is relaxed, openldap will not complain about a skipped index and just append the next number.
+
+You can do a backup and i also did, but i couldn't restore from it in a testrun, so i'm not sure if this even matters that much ;)
